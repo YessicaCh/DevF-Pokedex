@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.2.3"
+  },
+  "name": "devf-pokedex",
+  "version": "1.0.0",
+  "main": "pokemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node pokemon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YessicaCh/DevF-Pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YessicaCh/DevF-Pokedex/issues"
+  },
+  "homepage": "https://github.com/YessicaCh/DevF-Pokedex#readme",
+  "description": "",
+  "type": "module"
+}

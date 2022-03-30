@@ -5,19 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="pokemon.js"></script>
     <title>Document</title>
 </head>
 <body>
 
     <div class = "container_left">
         <div class = "head">
-            <div class = "circle-big"></div>
-            <div class = "circle"></div>
-            <div class = "circle"></div>
-            <div class = "circle"></div>
+            <div class = "circle big"></div>
+            <div class = "circle red"></div>
+            <div class = "circle yellow"></div>
+            <div class = "circle green"></div>
         </div>
         <div class = "head2"></div>
+        <div data-poke-card class="poke-card">
+            <div data-poke-img-container class="img-container">
+                <img data-poke-img class="poke-img" 
+                src="https://e7.pngegg.com/pngimages/248/960/png-clipart-pikachu-pokemon-go-silhouette-drawing-pikachu-dog-like-mammal-fictional-character.png"/>
+            </div>
+            <div class="info">
+                <span class="number">#2546</span>
+                <h3 class="name">pikachu</h3>
+                <h4 class="type" >type:<span>agua</span></h4>
+                <h4 class="state" >force: 55 </h4>
+                <h4 class="state" >giro: 10 </h4>
+            </div>
+        </div>
         <div class="pokedex__header-search">
             <form action="" id="searchPokemon">
                 <input type="text" id="pokemon">
@@ -27,24 +39,16 @@
 
             </form>
         </div>
-        
-        <div data-poke-card class="poke-card">
-            <div data-poke-name>Pokedex</div>
-            <div data-poke-img-container class="img-container">
-                <img data-poke-img class="poke-img" src="./poke-shadow.png"/>
-            </div>
-            <div data-poke-id></div>
-            <div data-poke-types class="poke-types"></div>
-            <div data-poke-stats class="poke-stats"></div>
-        </div>
     </div>
 
     <div class = "container_right">
+        <div class = "cont_right">
+        </div>
         
         <div class="pokedex__pokemon-content" id="pokemonContent" onclick="exitModal()">
         </div>
     </div>
     
-    
+    <script src="pokemon.js"></script>
 </body>
 </html>

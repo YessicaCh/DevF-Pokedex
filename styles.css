@@ -132,7 +132,7 @@ input {
 
 .img-container {
     position: relative;
-    width: 180px;
+    width: 250px;
     margin: 10px auto;
 }
 
@@ -152,7 +152,8 @@ input {
 }
 
 .poke-img {
-    width: 180px;
+    width: 80%;
+    height: 80%;
     border-radius: 50%;
 }
 

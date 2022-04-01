@@ -37,7 +37,7 @@ input {
 .container_right{
     width: 50%;
     height: 100%;
-    border: 4px solid #000;
+    /*border: 4px solid #000;*/
 }
 
 .head{
@@ -185,4 +185,36 @@ input {
 .poke-card h4 {
     font-size: 0.8em;
 	padding: 5px 10px;
+}
+.pokedex__pokemon-content{
+    display: flex;
+    flex-direction: row;
+}
+.pokemon{
+	background-color: #eee;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+    width: 200px;
+}
+
+.pokemon .img-container {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+    margin: auto;
+}
+
+.pokemon .img-container img {
+	margin-top: 20px;
+	max-width: 90%;
+}
+
+.pokemon .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
 }
